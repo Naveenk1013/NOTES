@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Materials Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode w3-animate-opacity">
+    <header>
+
+ <h1>Hotel Management Notes</h1>
+        <button class="toggle-mode" onclick="toggleMode()">Day/Night </button>
+       
+    </header>
+    <main>
+        <div class="dropdown">
+           <center> <button onclick="toggleDropdown(event, 'dropdown-content')">Study Materials</button> </center>
+            <div id="dropdown-content" class="dropdown-content">
+                <!-- Loop through Semesters -->
+                <div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester1')">Semester 1</button>
+                    <div id="semester1" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject1_1')">Subject 1</button>
+                        <div id="subject1_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+			    <button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject1_2')">Subject 2</button>
+                        <div id="subject1_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester2')">Semester 2</button>
+                    <div id="semester2" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject2_1')">Rooms Division</button>
+                        <div id="subject2_1" class="nested-dropdown-content">
+                            <button>Module 1:Bell desk and Concierge</button>
+                            <button>Unit 2</button>
+
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject2_2')">Subject 2</button>
+                        <div id="subject2_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more semesters (Semester 3 to Semester 8) following the same structure -->
+                <!-- Example for Semester 3 -->
+                <div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester3')">Semester 3</button>
+                    <div id="semester3" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject3_1')">Subject 1</button>
+                        <div id="subject3_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat similarly for other semesters up to Semester 8 -->
+
+
+<div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester4')">Semester 4</button>
+                    <div id="semester4" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject4_1')">Subject 1</button>
+                        <div id="subject4_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+
+
+<div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester5')">Semester 5</button>
+                    <div id="semester5" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject5_1')">Subject 1</button>
+                        <div id="subject5_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester6')">Semester 6</button>
+                    <div id="semester6" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject6_1')">Subject 1</button>
+                        <div id="subject6_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+
+
+<div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester7')">Semester 7</button>
+                    <div id="semester7" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject7_1')">Subject 1</button>
+                        <div id="subject7_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<div class="nested-dropdown">
+                    <button onclick="toggleDropdown(event, 'semester8')">Semester 8</button>
+                    <div id="semester8" class="nested-dropdown-content">
+                        <button onclick="toggleDropdown(event, 'subject8_1')">Subject 1</button>
+                        <div id="subject8_1" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+                        </div>
+                        <button onclick="toggleDropdown(event, 'subject3_2')">Subject 2</button>
+                        <div id="subject3_2" class="nested-dropdown-content">
+                            <button>Unit 1</button>
+                            <button>Unit 2</button>
+				<button>Unit 3</button>
+				<button>Unit 4</button>
+				<button>Unit 5</button>
+				<button>Unit 6</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hotel Management Notes. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
