@@ -124,7 +124,17 @@ footer {
     left: 100%;
     top: 0;
 }
+.container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
 
+h2 {
+    color: #333;
+}
 button {
     background: var(--primary-color-light);
     border: 1px solid var(--border-color-light);
